@@ -1,0 +1,21 @@
+{
+	"name": "react-TDD",
+	"version": "1.0.0",
+	"description": "Practicing React TDD",
+	"main": "index.js",
+	"repository": "git@github.com:Aravindan07/React-TDD.git",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "parcel index.html"
+	},
+	"keywords": [],
+	"author": "Aravindan <aravindan-portfolio.netlify.app>",
+	"license": "ISC",
+	"devDependencies": {
+		"parcel-bundler": "^1.12.4"
+	},
+	"dependencies": {
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1"
+	}
+}
