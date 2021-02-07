@@ -6,12 +6,14 @@
 	"repository": "git@github.com:Aravindan07/React-TDD.git",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "parcel index.html"
+		"start": "CHOKIDAR_USEPOLLING=true parcel index.html",
+		"e2e": "cypress open"
 	},
 	"keywords": [],
 	"author": "Aravindan <aravindan-portfolio.netlify.app>",
 	"license": "ISC",
 	"devDependencies": {
+		"cypress": "^6.4.0",
 		"parcel-bundler": "^1.12.4"
 	},
 	"dependencies": {
