@@ -8,8 +8,8 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "CHOKIDAR_USEPOLLING=true parcel index.html",
 		"lint": "eslint cypress/**/*.js src/**/*.js test/**/*.js",
-		"unit": "jest test/**/*.spec.js",
-		"e2e": "cypress open"
+		"unit": "CHOKIDAR_USEPOLLING=true jest test/**/*.spec.js",
+		"e2e": "CHOKIDAR_USEPOLLING=true cypress open"
 	},
 	"keywords": [],
 	"author": "Aravindan",
