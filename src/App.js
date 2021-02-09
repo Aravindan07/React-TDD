@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 
 export default class App extends Component {
-  render() {
-    return (
-      <div>
-        <div className="hello">Hello world!</div>
-      </div>
-    );
-  }
+	state = { name: "Aravindan" };
+	render() {
+		return (
+			<div>
+				<div className="hello">Hello {this.state.name}!</div>
+			</div>
+		);
+	}
 }
